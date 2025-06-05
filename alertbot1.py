@@ -159,9 +159,9 @@ class SolanaTokenPriceFetcher:
 
 
 async def main_loop():
-    wallet = "GyWkq2eg9DYZqNUiBGdfZghFbkx2ePL8N4zwnLVbAn27"
-    telegram_token = "7774465414:AAGmtz-W6_dhdWLoTBA26Q_1wikyN8sFJ8M"
-    telegram_chat_id = "7398132532"
+    wallet = "Enter your Wallet"
+    telegram_token = "Enter your token"
+    telegram_chat_id = "Enter your id"
 
     fetcher = SolanaTokenPriceFetcher(telegram_token, telegram_chat_id)
 
